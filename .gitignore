@@ -1,0 +1,6 @@
+.vscode
+Pipfile.lock
+static/
+.env
+*__pycache__*
+*.excalidraw
