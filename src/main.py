@@ -6,9 +6,7 @@ from env import env_load
 from json import load
 from utils.files import FilesTools
 from utils.markdown import Markdown
-
-
-env = env_load()
+from env import env
 
 def handle():
     files = FilesTools.find_files(env['INPUT_PATH'], ".md", env['EXCLUDE_DIRS'])

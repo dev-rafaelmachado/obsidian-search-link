@@ -15,3 +15,4 @@ def env_load() -> dict:
         "EXCLUDE_DIRS": exclude_dirs.split(",")
     }
     
+env = env_load()
